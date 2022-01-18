@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="let's go on sale at Zara" skipped="0" tests="4" time="23.09" timestamp="2022-01-14 04:35:51"><testcase name="Login"/><testcase name="Go to trousers"/><testcase name="Buy clothes"/><testcase name="Logout"/></testsuite>
