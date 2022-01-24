@@ -10,8 +10,13 @@ public class EmployeesSteps {
 
     @Steps
     private EmployeesActions employeesActions;
+    @Given("^select employees$")
+    public void enter_Web(){
+        employeesActions.openEmployees();
+        //employeesActions.();
+    }
 
-    @Given("^User enter$")
+    /*@Given("^User enter$")
     public void enter_zara(){
         employeesActions.openZara();
         employeesActions.buttonCookies();

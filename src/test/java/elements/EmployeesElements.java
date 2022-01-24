@@ -7,7 +7,12 @@ import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 
 public class EmployeesElements {
-    public static SelenideElement COOKIES_BUTTON = $(byId("onetrust-accept-btn-handler"));
+
+    public static SelenideElement ANDREW_BUTTON = $(byXpath(""));
+
+
+
+    /*public static SelenideElement COOKIES_BUTTON = $(byId("onetrust-accept-btn-handler"));
     public static SelenideElement LOGON_BUTTON = $(byXpath("//header/div[1]/div[2]/div[1]/a[1]"));
     public static SelenideElement USER_BAR = $(byXpath("//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"));
     public static SelenideElement PASSWORD_BAR = $(byXpath("//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[1]"));
@@ -37,5 +42,6 @@ public class EmployeesElements {
     public static SelenideElement BUTTON_SELECT_BAG= $(byXpath("//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[2]/section[1]/ul[1]/li[2]/div[1]/div[1]/div[1]/ul[1]/li[1]"));
     public static SelenideElement BUTTON_ADD_CART2 = $(byXpath("//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[2]/div[2]/div[1]/div[4]/button[1]"));
     public static SelenideElement BUTTON_COLOR = $(byXpath("//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[2]/div[2]/div[1]/div[3]/ul[1]/li[2]/button[1]"));
-    //public static SelenideElement BUTTON_SIZE = $(byXpath("//span[contains(text(),'36')]"));
+    //public static SelenideElement BUTTON_SIZE = $(byXpath("//span[contains(text(),'36')]"));*/
+
 }
