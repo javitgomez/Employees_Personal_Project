@@ -7,8 +7,10 @@ import static com.codeborne.selenide.Selenide.open;
 public class EmployeesActions {
 
     EmployeesElements employeesElements = new EmployeesElements();
-    public void openEmployees(){
-        open("C:\\Users\\javier.toribio\\Documents\\GitHub\\ui-test-asse");
+
+    public void openEmployees() throws InterruptedException{
+        open("C:\\Users\\javier.toribio\\Documents\\GitHub\\ui-test-asse\\employees.html");
+        Thread.sleep(3000);
     }
 
 

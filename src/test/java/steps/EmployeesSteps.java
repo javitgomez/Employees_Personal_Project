@@ -10,8 +10,9 @@ public class EmployeesSteps {
 
     @Steps
     private EmployeesActions employeesActions;
+
     @Given("^select employees$")
-    public void enter_Web(){
+    public void enter_Web() throws InterruptedException{
         employeesActions.openEmployees();
         //employeesActions.();
     }
